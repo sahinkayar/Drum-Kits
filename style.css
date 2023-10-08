@@ -1,0 +1,57 @@
+body{ 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, #5981bf, #009cd0, #00b3b7, #00c27e, #98c63a);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+  position: absolute;
+  left: 36%;
+  top: 7%;
+  margin-bottom: 20px;
+}
+#Crash, #kick, #snare, #drum {
+    margin: 220px 5px;
+    border: 2px solid red;
+    background-color: white;
+}
+
+#img-1 , #img-2 , #img-3 , #img-4{
+    background-image: url('images/crash.png');
+    width: 300px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#img-2 {
+    background-image: url('images/kick1.jpg');
+}
+#img-3{
+    background-image: url('images/snare.jpg');
+}
+
+#img-4 {
+    background-image: url('images/drum.jpg');
+}
+
+button{ 
+    cursor: pointer;
+    font-size: 40px;
+    text-align: center;
+  position: absolute;
+  color: rgb(119, 22, 210);
+  font-weight: bold;
+  display: flex;
+  margin-top: 210px;
+  margin-left: 90px;
+  border-radius: 10px;
+}
+
